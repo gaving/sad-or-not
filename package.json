@@ -1,0 +1,40 @@
+{
+  "name": "happy-or-not",
+  "description": "Are you happy?",
+  "author": "Gavin Gilmour",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "prettier": "^1.6.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-emoji-render": "^0.4.0",
+    "react-responsive-carousel": "^3.1.24",
+    "react-router-dom": "^4.1.2",
+    "react-scripts": "1.0.11",
+    "react-transition-group": "^2.2.0",
+    "styled-components": "^2.1.2"
+  },
+  "main": "src/electron/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "electron": "electron ."
+  },
+  "proxy": "http://localhost:3003",
+  "homepage": "./",
+  "devDependencies": {
+    "electron": "^1.7.5",
+    "electron-builder": "^19.22.1"
+  },
+  "build": {
+    "appId": "coffee.gavin",
+    "directories": {
+      "buildResources": "public"
+    }
+  }
+}
