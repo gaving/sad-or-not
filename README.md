@@ -4,9 +4,10 @@ An un-intrusive airport styled ["Happy or not"](https://www.crtviewpoint.com/hap
 
 ![tray](site/1.png)
 
-![main window](site/2.png)
+![main window](site/2.gif)
 
 ## Installation
 
+* Install [happy-or-not-server](https://github.com/gaving/happy-or-not-server)
 * Run `yarn start`
 * Visit `http://localhost:8080`
