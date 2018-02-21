@@ -1,6 +1,6 @@
 {
-  "name": "happy-or-not",
-  "description": "Are you happy?",
+  "name": "sad-or-not",
+  "description": "Are you sad?",
   "author": "Gavin Gilmour",
   "version": "0.1.0",
   "private": true,
